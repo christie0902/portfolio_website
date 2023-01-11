@@ -1,4 +1,8 @@
 
+body {
+    overflow-x: hidden;
+}
+
 .navigation-bar img {
     width: 300px;
     display: inline-block;
@@ -19,4 +23,60 @@
     padding-top: 60px;
     padding-left: 35px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.navigation-item a {
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+
+.main-section {
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+
+.main-section h1 {
+    font-family: 'Mansalva', cursive;
+    font-size: 75px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -228px;
+    top: 30px;
+    color:#FF449F;
+}
+
+.name .background {
+    position:absolute;
+    width: 1000px;
+    left: 50%;
+    margin-left: -450px;
+    top:-150px;
+}
+
+.name .circle {
+    position:absolute;
+    width: 620px;
+    left:40%;
+    margin-left:-260px;
+    top: -30px;
+}
+
+.name .threemarks {
+    position: absolute;
+    width: 200px;
+    left:50%;
+    margin-left:180px;
+    top:40px;
+}
+
+.name .lines {
+    position:absolute;
+    width:500px;
+    left:50%;
+    margin-left:-100px;
+    top: 120px;
 }
