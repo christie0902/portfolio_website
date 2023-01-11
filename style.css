@@ -1,0 +1,22 @@
+
+.navigation-bar img {
+    width: 300px;
+    display: inline-block;
+}
+
+.navigation-bar ul {
+    display: inline-block;
+    list-style: none;
+    margin:0;
+    padding:0;
+    float:right;
+    padding-right: 60px;
+}
+
+.navigation-bar li {
+    display: inline-block;
+    font-size: 35px;
+    padding-top: 60px;
+    padding-left: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
